@@ -1,0 +1,21 @@
+program ThreadTest3
+	sub threadl
+		writeln ("In threadl")
+		while true
+		wend
+	end sub
+	
+	sub thread2 as thread
+		call threadl
+		writeln ("In thread2")
+		while true
+		wend
+	end sub
+	call thread2
+	writeln ("In main")
+	
+	do
+	loop
+end
+
+

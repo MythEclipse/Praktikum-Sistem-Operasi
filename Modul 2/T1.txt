@@ -1,0 +1,31 @@
+program ThreadTest2_Modified
+
+var s1 string(6)
+var s2 string(6)
+
+sub thread1 as thread
+    s1 = "hello1"
+    writeln("In thread1")
+    while true
+    wend
+end sub
+
+sub thread2 as thread
+    s2 = "hello2"
+    writeln("In thread2")
+    while true
+    wend
+end sub
+
+thread1
+thread2
+writeln("In main")
+
+do
+    wait(1000)
+    writeln(s1)
+    writeln(s2)
+loop
+
+end
+
