@@ -1,0 +1,26 @@
+"00:04:44(43.972) [OS0: 00000000]: P1(2)  loaded into the READY queue [Memory=1 pages, Priority=3]
+00:04:51(50.795) [OS0: 00000000]: P2(3)  loaded into the READY queue [Memory=1 pages, Priority=3]
+00:05:45(45.288) [OS0: 00000000]: 
+00:05:45(45.288) [OS0: 00000000]: NEW SCHEDULER SESSION STARTED
+00:05:45(45.288) [OS0: 00000000]: Scheduling scheme is Round Robin using Static Priority (Non-preemptive): Time slots 10 ticks
+00:05:45(45.288) [OS0: 00000000]: Memory allocation policy is First Fit
+00:05:46(45.671) [OS0: 00000000]: P1(2)  moved from READY to RUNNING state on CPU 0
+00:06:00(00.149) [OS0: 00000010]: P1(2)  moved from RUNNING to READY state
+00:06:00(00.403) [OS0: 00000010]: P2(3)  moved from READY to RUNNING state on CPU 0
+00:06:15(14.882) [OS0: 00000020]: P2(3)  moved from RUNNING to READY state
+00:06:15(15.136) [OS0: 00000020]: P1(2)  moved from READY to RUNNING state on CPU 0
+00:06:30(29.613) [OS0: 00000030]: P1(2)  moved from RUNNING to READY state
+00:06:30(29.868) [OS0: 00000030]: P2(3)  moved from READY to RUNNING state on CPU 0
+00:06:45(44.853) [OS0: 00000040]: P2(3)  moved from RUNNING to READY state
+00:06:45(45.107) [OS0: 00000040]: P1(2)  moved from READY to RUNNING state on CPU 0
+00:06:60(59.586) [OS0: 00000050]: P1(2)  moved from RUNNING to READY state
+00:06:60(59.839) [OS0: 00000050]: P2(3)  moved from READY to RUNNING state on CPU 0
+00:07:15(14.825) [OS0: 00000060]: P2(3)  moved from RUNNING to READY state
+00:07:15(15.079) [OS0: 00000060]: P1(2)  moved from READY to RUNNING state on CPU 0
+00:07:30(29.557) [OS0: 00000070]: P1(2)  moved from RUNNING to READY state
+00:07:30(29.811) [OS0: 00000070]: P2(3)  moved from READY to RUNNING state on CPU 0
+00:07:45(44.798) [OS0: 00000080]: P2(3)  moved from RUNNING to READY state
+00:07:45(45.051) [OS0: 00000080]: P1(2)  moved from READY to RUNNING state on CPU 0
+00:07:60(59.530) [OS0: 00000090]: P1(2)  moved from RUNNING to READY state
+00:07:60(59.783) [OS0: 00000090]: P2(3)  moved from READY to RUNNING state on CPU 0
+"

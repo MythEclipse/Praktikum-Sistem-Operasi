@@ -1,0 +1,7 @@
+program LoopForeverTest2
+    While true
+        n = n + 1
+        i = i + n
+        p = n + i + 5
+    wend
+end
