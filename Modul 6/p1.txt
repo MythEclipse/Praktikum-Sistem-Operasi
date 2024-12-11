@@ -1,0 +1,5 @@
+program LoopForeverTest
+    While true
+        N = N + 1
+    wend
+end

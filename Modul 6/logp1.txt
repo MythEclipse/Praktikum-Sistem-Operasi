@@ -1,0 +1,47 @@
+"00:08:24(24.165) [OS0: 00000000]: P1(1)  loaded into the READY queue [Memory=1 pages, Priority=3]
+00:08:44(43.581) [OS0: 00000000]: P2(2)  loaded into the READY queue [Memory=1 pages, Priority=3]
+00:11:00(00.266) [OS0: 00000000]: P3(3)  loaded into the READY queue [Memory=1 pages, Priority=3]
+00:32:26(25.549) [OS0: 00000000]: 
+00:32:26(25.549) [OS0: 00000000]: NEW SCHEDULER SESSION STARTED
+00:32:26(25.549) [OS0: 00000000]: Scheduling scheme is Round Robin using Static Priority: Time slots 4 secs
+00:32:26(25.549) [OS0: 00000000]: Memory allocation policy is First Fit
+00:32:26(25.789) [OS0: 00000000]: P1(1)  moved from READY to RUNNING state on CPU 0
+00:32:30(29.888) [OS0: 00000007]: P1(1)  moved from RUNNING to READY state
+00:32:30(30.188) [OS0: 00000007]: P2(2)  moved from READY to RUNNING state on CPU 0
+00:32:34(33.888) [OS0: 00000014]: P2(2)  moved from RUNNING to READY state
+00:32:34(34.188) [OS0: 00000014]: P3(3)  moved from READY to RUNNING state on CPU 0
+00:32:38(37.989) [OS0: 00000021]: P3(3)  moved from RUNNING to READY state
+00:32:38(38.188) [OS0: 00000021]: P1(1)  moved from READY to RUNNING state on CPU 0
+00:32:42(41.888) [OS0: 00000028]: P1(1)  moved from RUNNING to READY state
+00:32:42(42.088) [OS0: 00000028]: P2(2)  moved from READY to RUNNING state on CPU 0
+00:32:46(45.788) [OS0: 00000035]: P2(2)  moved from RUNNING to READY state
+00:32:46(45.988) [OS0: 00000035]: P3(3)  moved from READY to RUNNING state on CPU 0
+00:32:48(47.553) [OS0: 00000037]: P3(3)  killed
+00:32:48(47.553) [OS0: 00000037]: *** STATS FOR PROCESS P3(3) ***
+00:32:48(47.553) [OS0: 00000037]: Elapsed Time = 00:00:13(13.365)
+00:32:48(47.553) [OS0: 00000037]: Avg. Waiting Time = 8,32 sec
+00:32:48(47.553) [OS0: 00000037]: Avg. Burst Period = 4
+00:32:48(47.553) [OS0: 00000037]: Tick Count = 9
+00:32:48(47.553) [OS0: 00000037]: Memory Swap Count = 0
+00:32:48(47.590) [OS0: 00000037]: P1(1)  moved from READY to RUNNING state on CPU 0
+00:32:50(50.088) [OS0: 00000041]: P1(1)  moved from RUNNING to READY state
+00:32:50(50.188) [OS0: 00000041]: P2(2)  moved from READY to RUNNING state on CPU 0
+00:32:54(53.988) [OS0: 00000048]: P2(2)  moved from RUNNING to READY state
+00:32:54(54.188) [OS0: 00000048]: P1(1)  moved from READY to RUNNING state on CPU 0
+00:32:55(54.729) [OS0: 00000048]: P1(1)  killed
+00:32:55(54.729) [OS0: 00000048]: *** STATS FOR PROCESS P1(1) ***
+00:32:55(54.729) [OS0: 00000048]: Elapsed Time = 00:00:29(28.941)
+00:32:55(54.729) [OS0: 00000048]: Avg. Waiting Time = 4,58 sec
+00:32:55(54.729) [OS0: 00000048]: Avg. Burst Period = 4
+00:32:55(54.729) [OS0: 00000048]: Tick Count = 18
+00:32:55(54.729) [OS0: 00000048]: Memory Swap Count = 0
+00:32:55(54.791) [OS0: 00000048]: P2(2)  moved from READY to RUNNING state on CPU 0
+00:33:16(16.261) [OS0: 00000088]: P2(2)  killed
+00:33:16(16.261) [OS0: 00000088]: *** STATS FOR PROCESS P2(2) ***
+00:33:16(16.261) [OS0: 00000088]: Elapsed Time = 00:00:46(46.073)
+00:33:16(16.261) [OS0: 00000088]: Avg. Waiting Time = 4,51 sec
+00:33:16(16.261) [OS0: 00000088]: Avg. Burst Period = 15
+00:33:16(16.261) [OS0: 00000088]: Tick Count = 61
+00:33:16(16.261) [OS0: 00000088]: Memory Swap Count = 0
+00:33:16(16.288) [OS0: 00000088]: Avg. Process Waiting Time = 11,94 sec
+"
