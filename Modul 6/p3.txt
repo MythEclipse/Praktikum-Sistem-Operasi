@@ -1,0 +1,5 @@
+program ForeverLoop
+    While true
+        I = 1
+    wend
+end
