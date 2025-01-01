@@ -17,14 +17,7 @@ set i=1
 for %%f in (*.c) do (
     if !i! == %choice% (
         echo Meng-compile dan menjalankan %%f...
-        set filename=%%~nf
-        gcc -o !filename! %%f > !filename!_compile_log.txt 2>&1
-        if !errorlevel! == 0 (
-            echo Kompilasi berhasil, menjalankan program...
-            call !filename! > !filename!_run_log.txt 2>&1
-        ) else (
-            echo Kompilasi gagal, lihat !filename!_compile_log.txt untuk detail.
-        )
+        gcc -o %%~nf %%f && %%~nf
         goto end
     )
     set /a i=!i!+1

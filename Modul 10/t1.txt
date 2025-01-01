@@ -1,0 +1,7 @@
+t1.c: In function 'createDirectories':
+t1.c:20:13: warning: implicit declaration of function 'mkdir' [-Wimplicit-function-declaration]
+         if (mkdir(currentPath, 0755) == 0) {
+             ^~~~~
+Masukkan path direktori hierarkis yang ingin dibuat (contoh: dir1/dir2/dir3): DIR1
+Direktori 'DIR1/' berhasil dibuat.
+Pembuatan direktori hierarkis selesai.

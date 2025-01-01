@@ -1,0 +1,63 @@
+Enter name of directory: SO
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 1
+
+
+Enter file name: A
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 1
+
+
+Enter file name: B
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 1
+
+
+Enter file name: C
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 4
+
+
+The Files are:
+        A
+        B
+        C
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 3
+
+
+Enter file name to search: ABC
+
+
+File not found.
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 2
+
+
+Enter file name to delete: B
+
+
+File deleted...
+
+
+1. Create File  2. Delete File  3. Search File
+4. Display Files        Exit
+Enter your choice: 5
