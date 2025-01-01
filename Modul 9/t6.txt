@@ -1,0 +1,22 @@
+Masukkan jumlah segmen (maksimum 10): 3
+Masukkan ukuran segmen 1: 200
+Segmen 1 dibuat dengan ukuran 200
+Masukkan ukuran segmen 2: 100
+Segmen 2 dibuat dengan ukuran 100
+Masukkan ukuran segmen 3: 300
+Segmen 3 dibuat dengan ukuran 300
+Masukkan offset untuk segmen 1: 2
+Masukkan nilai untuk offset 2 pada segmen 1: 2
+Nilai 2 disimpan pada offset 2 di segmen 1
+Masukkan offset untuk segmen 2: 3
+Masukkan nilai untuk offset 3 pada segmen 2: 4
+Nilai 4 disimpan pada offset 3 di segmen 2
+Masukkan offset untuk segmen 3: 6
+Masukkan nilai untuk offset 6 pada segmen 3: 8
+Nilai 8 disimpan pada offset 6 di segmen 3
+Segmen 1: Ukuran = 200
+Segmen 2: Ukuran = 100
+Segmen 3: Ukuran = 300
+Segmen 1 dihapus
+Segmen 2 dihapus
+Segmen 3 dihapus

@@ -1,0 +1,25 @@
+Pilih file yang ingin dijalankan:
+1. p1.c
+Masukkan nomor file yang ingin dijalankan: 1
+Meng-compile dan menjalankan p1.c...
+Enter the memory size (in bytes): 1000
+Enter the page size (in bytes): 100
+
+The number of pages available in memory are: 10
+Enter the number of processes: 3 
+
+Enter the number of pages required for process 0: 4
+
+Enter the page table for process 0: 8 6 9 5 
+
+Enter the number of pages required for process 1: 5
+
+Enter the page table for process 1: 1 4 5 7 3
+
+Enter the number of pages required for process 2: 5
+
+Memory is Full
+Enter logical address to find physical address
+Enter process number, page number, and offset: -2 3 60
+
+Physical Address: 642128460

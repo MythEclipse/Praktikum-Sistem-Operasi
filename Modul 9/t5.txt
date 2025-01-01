@@ -1,0 +1,15 @@
+Enter number of pages: 3
+Enter page table 1 (frame numbers):
+Page 1 entry 0: 1
+Page 1 entry 1: 2
+Page 1 entry 2: 3
+Enter page table 2 (frame numbers):
+Page 2 entry 0: 4
+Page 2 entry 1: 5
+Page 2 entry 2: 6
+Enter physical frames (for frame table):
+Frame entry 0: 7
+Frame entry 1: 8
+Frame entry 2: 9
+Enter virtual address to translate: 205
+Physical address: 77
